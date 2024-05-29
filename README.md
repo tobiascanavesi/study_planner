@@ -54,7 +54,8 @@ To get started with the Study Plan Organizer, follow these steps:
 ## Contributing
 
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
-You can connect with me on [LinkedIn](https://www.linkedin.com/in/tcanavesi/).
+
+If you like you can follow me at [LinkedIn](https://www.linkedin.com/in/tcanavesi/).
 
 ## License
 
