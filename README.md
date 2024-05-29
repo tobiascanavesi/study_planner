@@ -11,6 +11,13 @@ To get started with the Study Plan Organizer, follow these steps:
    ```bash
    git clone https://github.com/your_username/study-plan-organizer.git 
    ```
+   Create your .env file with the API keys for OpenAI, Serper and optionally for for LangSmith and Agentops if you want to track the performance of the model. This is the example of you the .env file should look like:
+   ```bash
+    OPENAI_API_KEY=your_openai_api_key
+    SERPER_API_KEY=your_serper_api_key
+    LANGSMITH_API_KEY=your_langsmith_api_key
+    AGENTOPS_API_KEY=your_agentops_api_key
+    ```
 
 2. **Install Dependencies**: Navigate to the project directory and install the required dependencies using pip:
     You don't need to install all the dependencies that are in requirements.txt, because this requirement contains the following library that
