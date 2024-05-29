@@ -1,17 +1,23 @@
 Week 1:
-- Wednesday 10-15: Focus on reading and summarizing Chapter 1 - Introduction to Mathematical Economics
-- Friday 10-13: Review and practice exercises from Chapter 2 - Fundamentals of Economics
+Wednesday 10-15:
+- 10:00-11:30 AM: Review college math concepts (Chapter 1-3)
+- 12:00-1:30 PM: Practice problems and quizzes on college math topics
+- 2:00-3:30 PM: Read and summarize key points in the transition points book
+
+Friday 10-13:
+- 10:00-11:30 AM: Review intermediate economics concepts (Chapter 1-2)
+- 12:00-1:30 PM: Practice problems and quizzes on intermediate economics topics
+- 2:00-3:30 PM: Work on assignments related to both college math and intermediate economics
 
 Week 2:
-- Wednesday 10-15: Dive into Chapter 3 - Optimization Techniques
-- Friday 10-13: Work on problem-solving skills with Chapter 4 - Applications of Optimization Techniques
+Wednesday 10-15:
+- 10:00-11:30 AM: Review college math concepts (Chapter 4-6)
+- 12:00-1:30 PM: Practice problems and quizzes on college math topics
+- 2:00-3:30 PM: Read and summarize key points in the transition points book
 
-Week 3:
-- Wednesday 10-15: Study Chapter 5 - Linear Programming
-- Friday 10-13: Practice real-life examples from Chapter 6 - Applications of Linear Programming
+Friday 10-13:
+- 10:00-11:30 AM: Review intermediate economics concepts (Chapter 3-4)
+- 12:00-1:30 PM: Practice problems and quizzes on intermediate economics topics
+- 2:00-3:30 PM: Work on assignments related to both college math and intermediate economics
 
-Week 4:
-- Wednesday 10-15: Review Chapter 7 - Comparative Statics
-- Friday 10-13: Prepare for assessments by revisiting key concepts from all chapters and solving additional problems
-
-By following this structured study plan, you will be able to cover all the essential topics from the textbook efficiently and effectively. Remember to allocate breaks and study sessions based on your concentration levels to optimize learning and retention. Good luck with your studies!
+Week 3 and Week 4 will follow a similar structure with a focus on covering new chapters, practicing problems, and reviewing key concepts from both subjects.

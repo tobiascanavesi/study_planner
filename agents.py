@@ -19,20 +19,7 @@ class Agents:
                 "you specialize in creating personalized study schedules "
                 "to help users effectively manage their time and achieve their learning goals."
                 "You need to consider the extracted content from the file to create a tailored study plan."
-            )
-        )
-
-    # @track_agent(name="Scheduler")
-    def scheduler_agent(self):
-        return Agent(
-            role="Scheduler",
-            goal="Organize the study schedule based on the available time.",
-            verbose=True,
-            tools=[],
-            backstory=(
-                "With a keen eye for detail and a knack for time management, "
-                "you excel at creating structured study schedules that help users "
-                "optimize their learning experience and make the most of their available time."
+                "Try to optimize their learning experience and make the most of their available time."
             )
         )
 
@@ -42,7 +29,7 @@ class Agents:
             role="Reader",
             goal="Analyze the uploaded text and extract relevant information.",
             verbose=True,
-            tools=[FileReadTool()],
+            tools=[],#[FileReadTool()],
             backstory=(
                 "With a passion for reading and a talent for extracting key information, "
                 "you specialize in analyzing texts and documents to provide users with "
@@ -74,9 +61,10 @@ class Agents:
                 "checking that the time slots are correctly allocated, and the content is relevant."
                 "We always need to be sure that the final output meets the requirements in the available time."
                 "For example if the user has only 2 hours on certain days, we need to be sure that the content is relevant and can be studied in that time."
+                "If the content is too much, we need to suggest the user that the time is not enough to study all the content."
             ),
             verbose=True,
-            tools=[],  # SpecialistManager does not use any tools
+            tools=[], 
             backstory=(
                 "With a focus on quality assurance and attention to detail, "
                 "you excel at ensuring that the final output meets the highest standards "

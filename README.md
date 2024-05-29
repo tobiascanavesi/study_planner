@@ -44,13 +44,6 @@ To get started with the Study Plan Organizer, follow these steps:
 * Markdown Support: Upload study materials in Markdown format for easy integration with the application.
 * Interactive Interface: User-friendly interface built with Streamlit for seamless interaction.
 
-## Dependencies
-
-* Python 3.x
-* Streamlit
-* CrewAI
-* CrewAI Tools
-
 ## Contributing
 
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.

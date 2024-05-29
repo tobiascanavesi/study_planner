@@ -1,19 +1,18 @@
 from crewai import Crew, Process
 from langchain_openai import ChatOpenAI
 from tasks import Tasks
-from crewai_components import Agents
+from agents import Agents
 
-import agentops
+#import agentops
 
 class StudyPlanner:
     def __init__(self):
-        agentops.init(tags=['study_planner'],max_wait_time=3)
+        #agentops.init(tags=['study_planner'],max_wait_time=3)
         self.tasks = Tasks()
         self.agents = Agents()
         self.study_plan_crew = Crew(
             agents=[
                 self.agents.study_planner_agent(), 
-                self.agents.scheduler_agent(), 
                 self.agents.reader_agent(), 
                 self.agents.time_estimation_agent(), 
                 self.agents.specialist_manager()
@@ -24,8 +23,9 @@ class StudyPlanner:
                 self.tasks.study_plan_task(), 
                 self.tasks.manage_final_output_task()
             ],
-            manager_llm=ChatOpenAI(model="gpt-3.5-turbo", temperature=0.6),
-            process=Process.hierarchical,
+            # You can add here a custom model for the manager but this is optional.
+            # manager_llm=ChatOpenAI(model="gpt-4-turbo", temperature=0.6),
+            # process=Process.hierarchical,
             verbose=2,
             memory=True
         )

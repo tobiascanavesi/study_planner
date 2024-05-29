@@ -1,6 +1,6 @@
 from crewai import Task
 from crewai_tools import ScrapeWebsiteTool, SerperDevTool, FileReadTool
-from crewai_components import Agents
+from agents import Agents
 
 class Tasks:
     def __init__(self):
@@ -12,7 +12,7 @@ class Tasks:
                          "This includes summarizing the content, identifying key topics, and estimating the number of pages."),
             expected_output=("A summary of key insights from the text content."
                              "The number of pages in that text and the main topics covered."),
-            tools=[FileReadTool()],
+            tools=[],
             agent=self.agents.reader_agent(),
             async_execution=False,
             output_file="md_analysis_summary.md"
@@ -33,17 +33,18 @@ class Tasks:
             description="Create a personalized study schedule based on the extracted content and available time slots that are {available_time_slots}.",
             expected_output="A detailed study schedule, study tips, and estimated number of pages to study.",
             context=[self.analyze_text_content_task(), self.time_estimation_task()],
-            agent=self.agents.scheduler_agent(),
+            agent=self.agents.study_planner_agent(),
             output_file="personalized_study_plan.md"
         )
 
     def manage_final_output_task(self):
         return Task(
             description=("Manage the final output to ensure quality and accuracy."
-                         "We must make sure that the content to be studied is distributed in the time that the user has enabled the {available_time_slots}."),
+                         "We must make sure that the content to be studied is distributed in the time that the user has enabled the {available_time_slots}."
+                         "Is important to check the study plan, the time slots, and the content to be studied match the user's requirements."),
             expected_output="A well-structured and detailed study plan that meets the highest standards.",
-            context=[self.study_plan_task()],
-            tools=[SerperDevTool(n_results=3), ScrapeWebsiteTool()],
+            context=[self.study_plan_task(), self.time_estimation_task(), self.analyze_text_content_task()],
+            tools=[], # You can try to give to out manager this kind of tools [SerperDevTool(n_results=3), ScrapeWebsiteTool()],
             agent=self.agents.specialist_manager(),
             output_file="final_study_plan.md"
         )
