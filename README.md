@@ -1,7 +1,9 @@
 # Study Plan Organizer
 
 Welcome to the Study Plan Organizer! This application helps you create a personalized study plan based on your available time slots and study materials.
-For test it out, you can use the file eco1.md in the repository. This app was tested with markdown files, but in the future it will be possible to use other formats.
+For test it out, you can use the file eco1.md in the repository. 
+
+This app was tested with markdown files, but in the future it will be possible to use other formats.
 
 ## Getting Started
 
@@ -37,12 +39,6 @@ To get started with the Study Plan Organizer, follow these steps:
     ```
 
 4. **Use the Application**: Open your web browser and go to http://localhost:8501 to access the Study Plan Organizer. Follow the on-screen instructions to upload your study material and generate a personalized study plan.
-
-## Features
-
-* Personalized Study Plan: Create a detailed study plan based on your available time slots and study materials.
-* Markdown Support: Upload study materials in Markdown format for easy integration with the application.
-* Interactive Interface: User-friendly interface built with Streamlit for seamless interaction.
 
 ## Contributing
 
