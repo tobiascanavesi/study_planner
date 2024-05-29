@@ -1,6 +1,7 @@
 # Study Plan Organizer
 
 Welcome to the Study Plan Organizer! This application helps you create a personalized study plan based on your available time slots and study materials.
+For test it out, you can use the file eco1.md in the repository. This app was tested with markdown files, but in the future it will be possible to use other formats.
 
 ## Getting Started
 
@@ -12,11 +13,21 @@ To get started with the Study Plan Organizer, follow these steps:
    ```
 
 2. **Install Dependencies**: Navigate to the project directory and install the required dependencies using pip:
-   ``` cd study-plan-organizer
-    pip install -r requirements.txt ```
+    You don't need to install all the dependencies that are in requirements.txt, because this requirement contains the following library that
+    is not necessary for run the app and is only use for transform PDFs to markdown files [marker](https://github.com/VikParuchuri/marker), so if you want to use directly markdown files and you don't need to transform files you can install only the following libraries:
+    ```bash
+    pip install crewai==0.28.8 crewai_tools==0.1.6 langchain_community==0.0.29
+    ```
+    If you want to install all the dependencies you can run the following command:
+   ```bash 
+    cd study_planner
+    pip install -r requirements.txt
+    ```
 
 3. **Run the Application**: Run the Application: Run the Streamlit application using the following command:
-    ```streamlit run app.py```
+    ```bash 
+    streamlit run app.py
+    ```
 
 4. **Use the Application**: Open your web browser and go to http://localhost:8501 to access the Study Plan Organizer. Follow the on-screen instructions to upload your study material and generate a personalized study plan.
 
