@@ -1,6 +1,6 @@
 # Study Plan Organizer
 
-![Study Planner](study_planner.png)
+![Study Planner](/img/study_planner.png)
 
 Welcome to the Study Plan Organizer! This application helps you create a personalized study plan based on your available time slots and study materials.
 For test it out, you can use the file eco1.md in the repository. 
@@ -44,7 +44,7 @@ To get started with the Study Plan Organizer, follow these steps:
 
 5. **Output**: The application will generate a personalized study plan based on your available time slots and study materials you can check the intermediate steps in the files time_estimation.md and personalized_study_plan.md and the final study plan in the file final_study_plan.md.
 
-![Study Planner](study_planner.gif)
+![Study Planner](/img/study_planner.gif)
 
 ## Contributing
 
