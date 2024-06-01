@@ -40,6 +40,8 @@ To get started with the Study Plan Organizer, follow these steps:
 
 4. **Use the Application**: Open your web browser and go to http://localhost:8501 to access the Study Plan Organizer. Follow the on-screen instructions to upload your study material and generate a personalized study plan.
 
+5. **Output**: The application will generate a personalized study plan based on your available time slots and study materials you can check the intermediate steps in the files time_estimation.md and personalized_study_plan.md and the final study plan in the file final_study_plan.md.
+
 ## Contributing
 
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
