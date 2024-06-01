@@ -15,7 +15,7 @@ class Tasks:
             tools=[],
             agent=self.agents.reader_agent(),
             async_execution=False,
-            output_file="md_analysis_summary.md"
+            output_file="/output/md_analysis_summary.md"
         )
 
     def time_estimation_task(self):
@@ -25,7 +25,7 @@ class Tasks:
             expected_output="An estimated study time for each topic and suggestions for optimizing study time.",
             context=[self.analyze_text_content_task()],
             agent=self.agents.time_estimation_agent(),
-            output_file="time_estimation.md"
+            output_file="/output/time_estimation.md"
         )
 
     def study_plan_task(self):
@@ -34,7 +34,7 @@ class Tasks:
             expected_output="A detailed study schedule, study tips, and estimated number of pages to study.",
             context=[self.analyze_text_content_task(), self.time_estimation_task()],
             agent=self.agents.study_planner_agent(),
-            output_file="personalized_study_plan.md"
+            output_file="/output/personalized_study_plan.md"
         )
 
     def manage_final_output_task(self):
@@ -46,5 +46,5 @@ class Tasks:
             context=[self.study_plan_task(), self.time_estimation_task(), self.analyze_text_content_task()],
             tools=[], # You can try to give to out manager this kind of tools [SerperDevTool(n_results=3), ScrapeWebsiteTool()],
             agent=self.agents.specialist_manager(),
-            output_file="final_study_plan.md"
+            output_file="/output/final_study_plan.md"
         )

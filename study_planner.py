@@ -36,7 +36,7 @@ class StudyPlanner:
 
         # Return study plan summary
         if result:
-            with open("final_study_plan.md", "r") as f:
+            with open("/output/final_study_plan.md", "r") as f:
                 study_plan_summary = f.read()
             return study_plan_summary
         else:
