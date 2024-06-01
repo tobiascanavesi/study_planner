@@ -1,1 +1,0 @@
-Unfortunately, I was unable to estimate the time needed to study different topics due to the unavailability of the necessary information. My best suggestion would be to directly reach out to the source of the topics or the Study Planner for further guidance on how to access the required information for study time estimation.

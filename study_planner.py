@@ -2,6 +2,7 @@ from crewai import Crew, Process
 from langchain_openai import ChatOpenAI
 from tasks import Tasks
 from agents import Agents
+import os
 
 #import agentops
 
@@ -36,7 +37,13 @@ class StudyPlanner:
 
         # Return study plan summary
         if result:
-            with open("/output/final_study_plan.md", "r") as f:
+
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+
+            file_path = os.path.join(script_dir, "output", "final_study_plan.md")
+            
+
+            with open(file_path, "r") as f:
                 study_plan_summary = f.read()
             return study_plan_summary
         else:
