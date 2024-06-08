@@ -1,1 +1,1 @@
-Unfortunately, I was unable to access the necessary file to estimate the study time for different topics. This hinders my ability to provide accurate estimates and suggestions for optimizing study time.
+I was unable to access the content of the file 'topics_complexity.txt' to estimate the time needed to study different topics. It seems the file path provided was incorrect or the file does not exist. In order to proceed with estimating study times, the correct file path or the file itself needs to be provided.

@@ -1,27 +1,20 @@
-Study Schedule:
 Week 1:
-- Monday 10-12: Introduction to Sets and Functions in Economics
-- Tuesday 14-16: Single Variable Functions and Their Properties
+- Monday 10-12: Study "Frankenstein; Or, The Modern Prometheus" chapters 1-3
+- Tuesday 14-16: Study "Frankenstein; Or, The Modern Prometheus" chapters 4-6
 
 Week 2:
-- Monday 10-12: Linear Models in Economics
-- Tuesday 14-16: Non-linear Functions in Economics
+- Monday 10-12: Study "Frankenstein; Or, The Modern Prometheus" chapters 7-9
+- Tuesday 14-16: Study "Frankenstein; Or, The Modern Prometheus" chapters 10-12
 
 Week 3:
-- Monday 10-12: Optimization in Economics
-- Tuesday 14-16: Multivariate Functions and Optimization
-
-Week 4:
-- Monday 10-12: Simultaneous Linear Equation Systems
-- Tuesday 14-16: Constrained Optimization in Economics
-
-Week 5:
-- Monday 10-12: Matrix Inversion Method of Solving Linear Systems
-- Tuesday 14-16: Review and Exercises
+- Monday 10-12: Review and summarize key points from chapters 1-12 of "Frankenstein; Or, The Modern Prometheus"
+- Tuesday 14-16: Prepare for any upcoming assessments or discussions related to the text
 
 Study Tips:
-1. Create a dedicated study space free from distractions.
-2. Break down the topics into smaller sections for easier understanding.
-3. Use mnemonic devices or visual aids to help remember key concepts.
-4. Take short breaks between study sessions to stay focused.
-5. Stay consistent with your study schedule to build momentum.
+- Take notes while reading to highlight important themes, character developments, and key quotes.
+- Create a study guide or flashcards to help with memorization of key details.
+- Engage in discussions with classmates or study groups to gain different perspectives on the text.
+- Utilize online resources or additional readings to deepen understanding of the themes presented in the text.
+
+Estimated Number of Pages to Study:
+- The text "Frankenstein; Or, The Modern Prometheus" consists of approximately 12 chapters, with each chapter containing an average of 20 pages. Therefore, the estimated total number of pages to study would be around 240 pages over the 3-week period.

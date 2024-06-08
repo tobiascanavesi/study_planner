@@ -1,16 +1,1 @@
-The text content from the file /tmp/eco1half.md includes a book titled "A First Course in Mathematical Economics" by Sunanda Roy, published in 2020 by Cambridge Scholars Publishing. The book is designed for undergraduate economics or applied economics majors transitioning from an introductory course to a calculus-based intermediate or senior level course in economics.
-
-Key topics covered in the text include:
-- Sets and functions in economics
-- Single variable functions and their properties
-- Linear models in economics
-- Non-linear functions in economics
-- Optimization in economics
-- Multivariate functions and optimization
-- Simultaneous linear equation systems
-- Constrained optimization in economics
-- Matrix inversion method of solving linear systems
-
-The text also covers prerequisites for students, concepts reviewed in the book, acknowledgments, and exercises.
-
-The number of pages in the text is not provided.
+The text content extracted from the file /tmp/frankenstein1-2.md includes the title "Frankenstein; Or, The Modern Prometheus" by Mary Wollstonecraft Shelley. The content consists of letters written by the characters, focusing on the protagonist's childhood, education, and early interests in natural philosophy. The protagonist's upbringing with Elizabeth Lavenza, his friendship with Henry Clerval, and his introduction to the works of philosophers such as Cornelius Agrippa are highlighted. The text explores the protagonist's fascination with the secrets of nature, his experiments in alchemy, and his eventual disillusionment with his pursuits. The narrative hints at a looming sense of destiny and impending tragedy. The text spans several chapters, showcasing the protagonist's intellectual journey and the influences that shape his character.
