@@ -3,7 +3,7 @@
 ![Study Planner](/img/study_planner.png)
 
 Welcome to the Study Plan Organizer! This application helps you create a personalized study plan based on your available time slots and study materials.
-For test it out, you can use the file eco1.md in the repository. 
+For test it out, you can use the file eco1half.md or frankenstein1-2.md that are in the repository.
 
 This app was tested with markdown files, but in the future it will be possible to use other formats.
 
