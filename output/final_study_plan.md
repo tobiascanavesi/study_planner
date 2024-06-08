@@ -1,31 +1,27 @@
+Study Schedule:
 Week 1:
-- Wednesday 10-15: Study sets and functions
-- Friday 10-13: Study domain, range, and graphs
+- Monday 10-12: Introduction to Sets and Functions in Economics
+- Tuesday 14-16: Single Variable Functions and Their Properties
 
 Week 2:
-- Wednesday 10-15: Review sets and functions
-- Friday 10-13: Study optimization
+- Monday 10-12: Linear Models in Economics
+- Tuesday 14-16: Non-linear Functions in Economics
 
 Week 3:
-- Wednesday 10-15: Study linear systems
-- Friday 10-13: Study matrix algebra
+- Monday 10-12: Optimization in Economics
+- Tuesday 14-16: Multivariate Functions and Optimization
 
 Week 4:
-- Wednesday 10-15: Review linear systems
-- Friday 10-13: Study constrained maximization
+- Monday 10-12: Simultaneous Linear Equation Systems
+- Tuesday 14-16: Constrained Optimization in Economics
 
 Week 5:
-- Wednesday 10-15: Study sets and functions
-- Friday 10-13: Study domain, range, and graphs
+- Monday 10-12: Matrix Inversion Method of Solving Linear Systems
+- Tuesday 14-16: Review and Exercises
 
-Week 6:
-- Wednesday 10-15: Review sets and functions
-- Friday 10-13: Study optimization
-
-Week 7:
-- Wednesday 10-15: Study linear systems
-- Friday 10-13: Study matrix algebra
-
-Week 8:
-- Wednesday 10-15: Review linear systems
-- Friday 10-13: Review all topics covered
+Study Tips:
+1. Create a dedicated study space free from distractions.
+2. Break down the topics into smaller sections for easier understanding.
+3. Use mnemonic devices or visual aids to help remember key concepts.
+4. Take short breaks between study sessions to stay focused.
+5. Stay consistent with your study schedule to build momentum.

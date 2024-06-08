@@ -19,6 +19,9 @@ def main():
 
     # File uploader for Markdown file
     uploaded_file = st.file_uploader("Upload your study material (Markdown file)", type="md")
+    
+    # Option to show the study plan in Spanish
+    translate = st.checkbox("Show the study plan in Spanish")
 
     if uploaded_file is not None:
         text_path = f"/tmp/{uploaded_file.name}"
@@ -33,7 +36,7 @@ def main():
             with st.spinner('Generating your study plan...'):
                 # Generate study plan
                 planner = StudyPlanner()
-                study_plan_summary = planner.generate_study_plan(available_time_slots, text_path)
+                study_plan_summary = planner.generate_study_plan(available_time_slots, text_path, translate=translate)
                 if study_plan_summary:
                     st.success("Study plan generated successfully!")
                     st.markdown("### Study Plan Summary:")
